@@ -4,7 +4,7 @@
   "name": "Μίστερ Γκατζέτας",
   "version": "1.0",
   "description": "Helper for gazzetta.gr comments section.",
-  "homepage_url": "https://github.com/m000/",
+  "homepage_url": "https://github.com/m000/mrgazzettas",
 
   "permissions": ["storage"],
   "options_ui": {
@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["*://www.gazzetta.gr/*"],
-      "js": ["mrgazzettas.js"]
+      "js": ["external/jquery-3.3.1.min.js", "mrgazzettas.js"]
     }
   ],
   "applications": {

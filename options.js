@@ -7,6 +7,8 @@ function saveOptions(e) {
 
 function restoreOptions() {
 /*
+  Managed storage is read-only.
+  https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/Storage
   var storageItem = browser.storage.managed.get('username');
   storageItem.then((res) => {
     alert(res.username);
