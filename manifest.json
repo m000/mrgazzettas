@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Μίστερ Γκατζέτας",
+  "version": "1.0",
+
+  "description": "Helper for gazzetta.gr comments section.",
+
+  "icons": {
+    "48": "icons/mrgazzetas_48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.gazzetta.gr/*"],
+      "js": ["mrgazzettas.js"]
+    }
+  ]
+
+}
